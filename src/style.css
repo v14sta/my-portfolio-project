@@ -8,6 +8,7 @@
 
 body {
   margin-top: 0%;
+  margin-bottom: 90px;
   max-width: 100%;
 }
 
@@ -20,7 +21,7 @@ h1 {
 
 h2 {
   font-family: var(--font-family1);
-  font-size: 48px;
+  font-size: 64px;
   text-align: center;
   margin: 0;
 }
@@ -34,13 +35,19 @@ h3 {
   color: black;
 }
 
-p {
-  background: var(--secondary-color);
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
+.my-par {
+  background-color: #ffffff;
+  font-family: var(--font-family2);
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px;
+  text-align: justify;
+  text-justify: inter-character;
+}
+.my-text p {
+  background-color: #ffffff;
+  font-family: var(--font-family2);
+  font-weight: normal;
 }
 .hero {
   background: #f9f7fe;
@@ -50,6 +57,7 @@ p {
 .hero h2 {
   font-family: var(--font-family2);
   font-weight: bold;
+  font-size: 48px;
 }
 .hero h3 {
   font-weight: normal;
@@ -66,15 +74,16 @@ p {
 
 .btn-go {
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  margin: 20px;
-  padding: 11px 23px;
-  text-decoration: none;
-  text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 20px;
+  margin-top: 10px;
+  padding: 11px 23px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .about-link {
@@ -108,12 +117,14 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-
-.yoga-link,
-.weather-link,
-.yogurt-link {
+.mailme {
+  font-size: 48px;
+}
+.btn-yoga-link,
+.btn-weather-link,
+.btn-yogurt-link {
   border-radius: 5px;
-  padding: 20px 15px;
+  padding: 11px 23px;
   cursor: pointer;
   text-decoration: none;
   background: var(--primary-color);
