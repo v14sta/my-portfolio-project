@@ -1,35 +1,37 @@
 :root {
   --primary-color: #ce7ae9;
-  --secondary-color: #ffffff;
+  --secondary-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family1: "Playfair Display", serif;
+  --font-family2: "Poppins", sans-serif;
 }
 
 body {
   margin-top: 0%;
   max-width: 100%;
 }
-.navbar {
-  max-width: 100%;
-  margin-top: 0px;
-}
-h1,
-h2,
-h3 {
+
+h1 {
+  font-family: var(--font-family1);
+  font-size: 96px;
   text-align: center;
   margin: 0;
 }
 
-h1 {
-  font-size: 96px;
-}
-
 h2 {
+  font-family: var(--font-family1);
   font-size: 48px;
+  text-align: center;
+  margin: 0;
 }
 
 h3 {
+  font-family: var(--font-family2);
   font-size: 24px;
   opacity: 0.7;
+  text-align: center;
+  margin: 0;
+  color: black;
 }
 
 p {
@@ -40,22 +42,36 @@ p {
   line-height: 1.5;
   text-align: center;
 }
-
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 140px 0px;
+}
+.hero h2 {
+  font-family: var(--font-family2);
+  font-weight: bold;
+}
+.hero h3 {
+  font-weight: normal;
+}
+.navbar {
+  max-width: 100%;
+  margin-top: 0px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
 
-.navigation-links a {
-  margin: 20px;
+.btn-go {
   border-radius: 4px;
-  padding: 20px 15px;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 20px;
+  padding: 11px 23px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -92,14 +108,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.yoga-link {
-  border-radius: 5px;
-  padding: 20px 15px;
-  text-decoration: none;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
+
 .yoga-link,
 .weather-link,
 .yogurt-link {
