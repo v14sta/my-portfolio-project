@@ -107,17 +107,21 @@ h3 {
   line-height: 100px;
 }
 .email-link {
-  display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: black;
+  font-size: 18px;
   text-decoration: none;
 }
 .email-link:hover {
   text-decoration: underline;
 }
-.mailme {
-  font-size: 48px;
+.about-contact {
+  font-size: 34px;
+  margin: 30px;
+}
+.about-contact h2 {
+  line-height: 80px;
+  font-size: 64px;
 }
 .btn-yoga-link,
 .btn-weather-link,
@@ -180,4 +184,19 @@ h3 {
     padding: 0;
     text-align: center;
   }
+}
+li {
+  display: inline-flex;
+  text-align: start;
+  padding-right: 70px;
+  margin-bottom: 22px;
+}
+
+.contact-info {
+  background-color: rgb(241, 219, 255);
+  border: 1px solid rgb(241, 219, 255);
+  border-radius: 20px;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-left: 0;
 }
