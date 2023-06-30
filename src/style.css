@@ -185,7 +185,7 @@ h3 {
     text-align: center;
   }
 }
-li {
+.contact-info li {
   display: inline-flex;
   text-align: start;
   padding-right: 70px;
