@@ -30,6 +30,12 @@ h3 {
   margin: 0;
   color: black;
 }
+h4 {
+  font-size: 48px;
+  color: black;
+  font-family: var(--font-family1);
+  font-weight: bold;
+}
 .my-par {
   background-color: #ffffff;
   font-family: var(--font-family2);
@@ -103,6 +109,17 @@ h3 {
   font-size: 64px;
   line-height: 100px;
 }
+.email-footer {
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.email-footer:hover {
+  color: var(--primary-color);
+}
 .email-link {
   justify-content: center;
   color: black;
@@ -120,10 +137,12 @@ h3 {
   line-height: 80px;
   font-size: 64px;
 }
+
 .btn-yoga-link,
 .btn-weather-link,
 .btn-yogurt-link,
-.btn-my-works {
+.btn-my-works,
+.btn-branding {
   border-radius: 5px;
   padding: 11px 23px;
   cursor: pointer;
@@ -204,4 +223,27 @@ h3 {
 }
 .navbar-brand {
   margin-right: 760px;
+}
+footer {
+  margin: 60px 0px;
+}
+footer .contact-inquery {
+  background: var(--secondary-color);
+  padding: 25px 120px;
+  border-radius: 10px;
+}
+.contact-inquery p {
+  font-family: var(--font-family2);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
