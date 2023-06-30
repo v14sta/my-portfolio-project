@@ -57,10 +57,7 @@ h3 {
 .hero h3 {
   font-weight: normal;
 }
-.navbar {
-  max-width: 100%;
-  margin-top: 0px;
-}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -199,4 +196,12 @@ h3 {
   list-style-type: none;
   margin-top: 50px;
   margin-left: 0;
+}
+.about-header {
+  margin: 0;
+  margin-right: 0px;
+  padding: 0px;
+}
+.navbar-brand {
+  margin-right: 760px;
 }
